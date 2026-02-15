@@ -2,8 +2,11 @@
 title: "Joshua Morrison"
 about:
   id: hero-heading
-  template: jolla
+  template: trestles
   image: profile.jpg
+  image-width: 10cm
+  image-shape: round
+
   links:
     - icon: linkedin
       text: LinkedIn
@@ -14,15 +17,25 @@ about:
       href: https://github.com/morrijos
 ---
 
-### This content appears above the formatted about page content.
-
 :::{#hero-heading}
 
 I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I'm an aspiring semantic data specialist; I'll be using this site to chronicle my self-led study of semantic data tools.
 
 More about me...
 
-## Education
+### EXPERIENCE
+
+**Data Scientist II**<br>
+National Committee for Quality Assurance (NCQA)<br>
+Jul 2024-Present<br>
+Washington, DC (Remote)<br>
+
+**Data Scientist**<br>
+DaVita Kidney Care<br>
+Aug 23-Jul 2024<br>
+Denver, CO<br>
+
+### EDUCATION
 
 **University of Colorado Boulder**<br>
 Post-baccalaureate Bachelor of Science (BSc), Computer Science<br>
@@ -39,18 +52,4 @@ Bachelor of Science (BSc), Biology<br>
 Aug 2012-May 2015<br>
 Denver, CO<br>
 
-## Experience
-
-**Data Scientist II**<br>
-National Committee for Quality Assurance (NCQA)<br>
-Jul 2024-Present<br>
-Washington, DC (Remote)<br>
-
-**Data Scientist**<br>
-DaVita Kidney Care<br>
-Aug 23-Jul 2024<br>
-Denver, CO<br>
-
 :::
-
-### This content appears below the formatted about page content.
