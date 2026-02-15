@@ -10,6 +10,9 @@ website:
         text: Home
       - about.qmd
 
+  repo-url: https://github.com/morrijos/semantic
+  repo-actions: [view, edit, issue]
+
 format:
   html:
     theme:
