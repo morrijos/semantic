@@ -4,12 +4,14 @@ project:
 
 website:
   title: "semantic"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: blog.qmd
-        text: Blog
+navbar:
+  left:
+    - href: index.qmd
+      text: Home
+    - href: about.qmd
+      text: About
+    - href: blog.qmd
+      text: Blog
 
   repo-url: https://github.com/morrijos/semantic
   repo-actions: [source, edit, issue]
