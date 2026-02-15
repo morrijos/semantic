@@ -1,37 +1,56 @@
 ---
-title: "About"
+title: "Joshua Morrison"
+about:
+  id: hero-heading
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/morrijos
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/morrijos
 ---
 
-::: {.about-grid}
+### This content appears above the formatted about page content.
 
-::: {.about-left}
-
-![](images/profile.jpg){.about-photo}
-
-## Joshua Morrison
-
-**Data Scientist**
-
-Master of Public Health (MPH), Biostatistics · Bachelor of Science (BS), Computer Science
-
-[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/morrijos)
-
-:::
-
-::: {.about-right}
-
-## About Me
+:::{#hero-heading}
 
 I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I'm an aspiring semantic data specialist; I'll be using this site to chronicle my self-led study of semantic data tools.
 
 More about me...
 
-### On this site
+## Education
 
-- [Blog](blog.qmd)
-- [SPARQL and graph demos](blog.qmd)
-- [Selected projects](index.qmd)
+**University of Colorado Boulder**<br>
+Post-baccalaureate Bachelor of Science (BSc), Computer Science<br>
+Aug 2024-Present<br>
+Boulder, CO<br>
+
+**Colorado School of Public Health**<br>
+Master of Public Health (MPH), Applied Biostatistics<br>
+Aug 2017-May 2019<br>
+Aurora, CO<br>
+
+**University of Colorado Denver**<br>
+Bachelor of Science (BSc), Biology<br>
+Aug 2012-May 2015<br>
+Denver, CO<br>
+
+## Experience
+
+**Data Scientist II**<br>
+National Committee for Quality Assurance (NCQA)<br>
+Jul 2024-Present<br>
+Washington, DC (Remote)<br>
+
+**Data Scientist**<br>
+DaVita Kidney Care<br>
+Aug 23-Jul 2024<br>
+Denver, CO<br>
 
 :::
 
-:::
+### This content appears below the formatted about page content.
