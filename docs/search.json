@@ -23,8 +23,15 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "I’m Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I’m an aspiring semantic data specialist; I’ll be using this site to chronicle my self-led study of semantic data tools.\nMore about me…"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nUniversity of Colorado Boulder Post-baccalaureate Bachelor of Science (BSc), Computer Science Aug 2024-Present Boulder, CO\nColorado School of Public Health Master of Public Health (MPH), Applied Biostatistics Aug 2017-May 2019 Aurora, CO\nUniversity of Colorado Denver Bachelor of Science (BSc), Biology Aug 2012-May 2015 Denver, CO\n\nWhat You’ll Find Here\nComing soon…"
   }
 ]

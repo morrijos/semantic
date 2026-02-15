@@ -1,5 +1,40 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I'm an aspiring semantic data specialist; I'll be using this site to chronicle my self-led study of semantic data tools.
+
+More about me...
+
+### Experience
+
+Data Scientist II
+National Committee for Quality Assurance (NCQA)
+Jul 2024-Present
+Washington, DC (Remote)
+
+Data Scientist
+DaVita Kidney Care
+Aug 23-Jul 2024
+Denver, CO
+
+## Education
+
+**University of Colorado Boulder**
+Post-baccalaureate Bachelor of Science (BSc), Computer Science
+Aug 2024-Present
+Boulder, CO
+
+**Colorado School of Public Health**
+Master of Public Health (MPH), Applied Biostatistics
+Aug 2017-May 2019
+Aurora, CO
+
+**University of Colorado Denver**
+Bachelor of Science (BSc), Biology
+Aug 2012-May 2015
+Denver, CO
+
+### What You'll Find Here
+
+Coming soon...
