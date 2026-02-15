@@ -8,10 +8,10 @@ navbar:
   left:
     - href: index.qmd
       text: Home
-    - href: about.qmd
-      text: About
     - href: blog.qmd
       text: Blog
+    - href: about.qmd
+      text: About
 
   repo-url: https://github.com/morrijos/semantic
   repo-actions: [source, edit, issue]
