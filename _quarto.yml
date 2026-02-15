@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "morrijos.github.io"
+  title: "semantic"
   navbar:
     left:
       - href: index.qmd
