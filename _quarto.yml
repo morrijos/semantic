@@ -11,7 +11,7 @@ website:
       - about.qmd
 
   repo-url: https://github.com/morrijos/semantic
-  repo-actions: [view, edit, issue]
+  repo-actions: [source, edit, issue]
 
 format:
   html:
