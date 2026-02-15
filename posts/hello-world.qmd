@@ -4,4 +4,4 @@ date: 2026-02-14
 categories: [None]
 ---
 
-Hello World!
+Join me as I explore tools for semantic data models.
