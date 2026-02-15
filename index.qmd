@@ -1,5 +1,5 @@
 ---
-title: "morrijos.github.io"
+title: "semantic"
 ---
 
 This is a Quarto website.
