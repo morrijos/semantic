@@ -3,17 +3,16 @@ title: "Joshua Morrison"
 about:
   id: hero-heading
   template: trestles
-  image: profile.jpg
+  image: images/profile.jpg
   image-width: 10cm
   image-shape: round
 
   links:
+    - icon: envelope
+      href: mailto:joshua.morrison@hushmail.com
     - icon: linkedin
-      text: LinkedIn
       href: https://linkedin.com/in/morrijos
-
     - icon: github
-      text: GitHub
       href: https://github.com/morrijos
 ---
 
