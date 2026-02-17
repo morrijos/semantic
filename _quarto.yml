@@ -7,11 +7,11 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: HOME
       - href: about.qmd
-        text: About
+        text: ABOUT
       - href: blog.qmd
-        text: Blog
+        text: BLOG
 
   repo-url: https://github.com/morrijos/semantic
   repo-actions: [source, edit, issue]

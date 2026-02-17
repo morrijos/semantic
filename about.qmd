@@ -9,7 +9,7 @@ about:
 
   links:
     - icon: envelope
-      href: mailto:joshua.morrison@hushmail.com
+      href: mailto:joshua.morrison@colorado.edu
     - icon: linkedin
       href: https://linkedin.com/in/morrijos
     - icon: github
@@ -18,9 +18,7 @@ about:
 
 :::{#hero-heading}
 
-I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I'm an aspiring semantic data specialist; I'll be using this site to chronicle my self-led study of semantic data tools.
-
-More about me...
+I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use data from medical claims and electronic health records to inform healthcare _quality_ measurement, especially for patients with chronic conditions. I'm also an aspiring semantic data specialist with an eye toward healthcare interoperability and AI applications. I'll be using this site to chronicle my self-led study of semantic data tools.
 
 ### EXPERIENCE
 
@@ -31,7 +29,7 @@ Washington, DC (Remote)<br>
 
 **Data Scientist**<br>
 DaVita Kidney Care<br>
-Aug 23-Jul 2024<br>
+Aug 2023-Jul 2024<br>
 Denver, CO<br>
 
 ### EDUCATION

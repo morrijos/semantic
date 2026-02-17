@@ -1,7 +1,8 @@
 ---
-title: "Blog"
+title: "BLOG"
 listing:
   contents: posts
+  fields: [image, date, title]
   sort: "date desc"
   type: default
 ---

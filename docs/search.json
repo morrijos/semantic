@@ -2,9 +2,9 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Blog",
+    "title": "BLOG",
     "section": "",
-    "text": "Hello World!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
+    "text": "HELLO WORLD!\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -16,15 +16,15 @@
   {
     "objectID": "posts/hello-world.html",
     "href": "posts/hello-world.html",
-    "title": "Hello World!",
+    "title": "HELLO WORLD!",
     "section": "",
-    "text": "Join me as I explore tools for semantic data models."
+    "text": "Join me as I explore tools for semantic data."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Joshua Morrison",
     "section": "",
-    "text": "I’m Joshua Morrison, a Data Scientist and public health informatics professional. I use large-scale claims and electronic health record data to inform healthcare quality measurement, especially for patients with chronic conditions. I’m an aspiring semantic data specialist; I’ll be using this site to chronicle my self-led study of semantic data tools.\nMore about me…\n\nEXPERIENCE\nData Scientist II National Committee for Quality Assurance (NCQA) Jul 2024-Present Washington, DC (Remote)\nData Scientist DaVita Kidney Care Aug 23-Jul 2024 Denver, CO\n\n\nEDUCATION\nUniversity of Colorado Boulder Post-baccalaureate Bachelor of Science (BSc), Computer Science Aug 2024-Present Boulder, CO\nColorado School of Public Health Master of Public Health (MPH), Applied Biostatistics Aug 2017-May 2019 Aurora, CO\nUniversity of Colorado Denver Bachelor of Science (BSc), Biology Aug 2012-May 2015 Denver, CO"
+    "text": "I’m Joshua Morrison, a Data Scientist and public health informatics professional. I use data from medical claims and electronic health records to inform healthcare quality measurement, especially for patients with chronic conditions. I’m also an aspiring semantic data specialist with an eye toward healthcare interoperability and AI applications. I’ll be using this site to chronicle my self-led study of semantic data tools.\n\nEXPERIENCE\nData Scientist II National Committee for Quality Assurance (NCQA) Jul 2024-Present Washington, DC (Remote)\nData Scientist DaVita Kidney Care Aug 2023-Jul 2024 Denver, CO\n\n\nEDUCATION\nUniversity of Colorado Boulder Post-baccalaureate Bachelor of Science (BSc), Computer Science Aug 2024-Present Boulder, CO\nColorado School of Public Health Master of Public Health (MPH), Applied Biostatistics Aug 2017-May 2019 Aurora, CO\nUniversity of Colorado Denver Bachelor of Science (BSc), Biology Aug 2012-May 2015 Denver, CO"
   }
 ]
