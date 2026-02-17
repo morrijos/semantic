@@ -1,7 +1,7 @@
 ---
 title: "Joshua Morrison"
 about:
-  id: hero-heading
+  id: about-me
   template: trestles
   image: images/profile.jpg
   image-width: 10cm
@@ -16,16 +16,16 @@ about:
       href: https://github.com/morrijos
 ---
 
-:::{#hero-heading}
+:::{#about-me}
 
-I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use data from medical claims and electronic health records to inform healthcare _quality_ measurement, especially for patients with chronic conditions. I'm also an aspiring semantic data specialist with an eye toward healthcare interoperability and AI applications. I'll be using this site to chronicle my self-led study of semantic data tools.
+I'm Joshua Morrison, a Data Scientist and public health informatics professional. I use data from medical claims and electronic health records to inform healthcare _quality_ measurement, especially for patients with chronic conditions. I'm also an aspiring semantic data specialist with an eye toward healthcare interoperability and AI applications. I'll be using this site to chronicle my self-led study of semantic data tools.  
 
 ### EXPERIENCE
 
-**Data Scientist II**<br>
-National Committee for Quality Assurance (NCQA)<br>
-Jul 2024-Present<br>
-Washington, DC (Remote)<br>
+**Data Scientist II**  
+National Committee for Quality Assurance (NCQA)  
+Jul 2024-Present  
+Washington, DC (Remote)  
 
 **Data Scientist**<br>
 DaVita Kidney Care<br>
@@ -48,5 +48,42 @@ Aurora, CO<br>
 Bachelor of Science (BSc), Biology<br>
 Aug 2012-May 2015<br>
 Denver, CO<br>
+
+### TECHNICAL SKILLS
+
+<div class="skill">
+  <div class="skill-label">Python</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 60%"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <div class="skill-label">R</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 80%"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <div class="skill-label">SQL</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 90%"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <div class="skill-label">Machine Learning</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 60%"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <div class="skill-label">Data Visualization (Tableau / ggplot)</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 70%"></div>
+  </div>
+</div>
 
 :::
