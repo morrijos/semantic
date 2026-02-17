@@ -27,62 +27,48 @@ National Committee for Quality Assurance (NCQA)
 Jul 2024-Present  
 Washington, DC (Remote)  
 
-**Data Scientist**<br>
-DaVita Kidney Care<br>
-Aug 2023-Jul 2024<br>
+**Data Scientist**  
+DaVita Kidney Care  
+Aug 2023-Jul 2024  
 Denver, CO<br>
 
 ### EDUCATION
 
-**University of Colorado Boulder**<br>
-Post-baccalaureate Bachelor of Science (BSc), Computer Science<br>
-Aug 2024-Present<br>
-Boulder, CO<br>
+**University of Colorado Boulder**  
+Post-baccalaureate Bachelor of Science (BSc), Computer Science  
+Aug 2024-Present  
+Boulder, CO  
 
-**Colorado School of Public Health**<br>
-Master of Public Health (MPH), Applied Biostatistics<br>
-Aug 2017-May 2019<br>
-Aurora, CO<br>
+**Colorado School of Public Health**  
+Master of Public Health (MPH), Applied Biostatistics  
+Aug 2017-May 2019  
+Aurora, CO  
 
-**University of Colorado Denver**<br>
-Bachelor of Science (BSc), Biology<br>
-Aug 2012-May 2015<br>
-Denver, CO<br>
+**University of Colorado Denver**  
+Bachelor of Science (BSc), Biology  
+Aug 2012-May 2015  
+Denver, CO  
 
 ### TECHNICAL SKILLS
 
 <div class="skill">
   <div class="skill-label">Python</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 60%"></div>
+    <div class="skill-fill" style="width: 90%;">70%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">R</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 80%"></div>
+    <div class="skill-fill" style="width: 85%;">80%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">SQL</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 90%"></div>
-  </div>
-</div>
-
-<div class="skill">
-  <div class="skill-label">Machine Learning</div>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width: 60%"></div>
-  </div>
-</div>
-
-<div class="skill">
-  <div class="skill-label">Data Visualization (Tableau / ggplot)</div>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width: 70%"></div>
+    <div class="skill-fill" style="width: 88%;">85%</div>
   </div>
 </div>
 
