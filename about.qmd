@@ -52,6 +52,7 @@ Denver, CO
 
 ### TECHNICAL SKILLS
 
+```{=html}
 <div class="skill">
   <div class="skill-label">Python</div>
   <div class="skill-bar">

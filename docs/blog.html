@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
@@ -214,6 +214,9 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./posts/hello-world.html" class="no-external">HELLO WORLD!</a>
 </h3>
+<div class="delink listing-description"><a href="./posts/hello-world.html" class="no-external">
+Join me as I explore tools for semantic data.
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/hello-world.html" class="no-external">
