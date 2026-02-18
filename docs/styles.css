@@ -2,3 +2,31 @@
 body {
   font-family: "Arial Narrow", Arial, sans-serif;
 }
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill-label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 22px;
+}
+
+.skill-fill {
+  height: 100%;
+  background-color: #6c757d; /* neutral grey-blue */
+  color: white;
+  text-align: right;
+  padding-right: 8px;
+  font-size: 0.85rem;
+  line-height: 22px;
+  border-radius: 6px 0 0 6px;
+}

@@ -51,27 +51,27 @@ Aug 2012-May 2015
 Denver, CO  
 
 ### TECHNICAL SKILLS
-
 ```{=html}
 <div class="skill">
   <div class="skill-label">Python</div>
-  <div class="w3-light-grey w3-round">
-    <div class="w3-container w3-round w3-blue" style="width:70%">70%</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 70%;">70%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">R</div>
-  <div class="w3-light-grey w3-round">
-    <div class="w3-container w3-round w3-blue" style="width:80%">80%</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 80%;">80%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">SQL</div>
-  <div class="w3-light-grey w3-round">
-    <div class="w3-container w3-round w3-blue" style="width:85%">85%</div>
+  <div class="skill-bar">
+    <div class="skill-fill" style="width: 85%;">85%</div>
   </div>
 </div>
+
 
 :::
