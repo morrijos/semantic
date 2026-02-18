@@ -41,7 +41,7 @@ Aug 2024-Present
 Boulder, CO  
 
 **Colorado School of Public Health**  
-Master of Public Health (MPH), Applied Biostatistics  
+Master of Public Health (MPH), Biostatistics  
 Aug 2017-May 2019  
 Aurora, CO  
 
@@ -50,13 +50,13 @@ Bachelor of Science (BSc), Biology
 Aug 2012-May 2015  
 Denver, CO  
 
-DOWNLOAD RESUMÉ
+[**DOWNLOAD RESUMÉ**](/files/2026 Morrison Resume.pdf)
 
 :::skill
 **Python**
 
 :::skill-bar
-[70%]{.skill-fill .w70}
+{.skill-fill .w70}
 :::
 :::
 
@@ -64,7 +64,7 @@ DOWNLOAD RESUMÉ
 **R**
 
 :::skill-bar
-[80%]{.skill-fill .w80}
+{.skill-fill .w80}
 :::
 :::
 
@@ -72,7 +72,7 @@ DOWNLOAD RESUMÉ
 **SQL**
 
 :::skill-bar
-[85%]{.skill-fill .w85}
+{.skill-fill .w85}
 :::
 :::
 
