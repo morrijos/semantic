@@ -10,10 +10,11 @@ about:
   links:
     - icon: envelope
       href: mailto:joshua.morrison@colorado.edu
-    - icon: linkedin
-      href: https://linkedin.com/in/morrijos
     - icon: github
       href: https://github.com/morrijos
+    - icon: linkedin
+      href: https://linkedin.com/in/morrijos
+
 ---
 
 :::{#about-me}
@@ -54,21 +55,21 @@ Denver, CO
 <div class="skill">
   <div class="skill-label">Python</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 90%;">70%</div>
+    <div class="skill-fill" style="width: 70%;">70%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">R</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 85%;">80%</div>
+    <div class="skill-fill" style="width: 80%;">80%</div>
   </div>
 </div>
 
 <div class="skill">
   <div class="skill-label">SQL</div>
   <div class="skill-bar">
-    <div class="skill-fill" style="width: 88%;">85%</div>
+    <div class="skill-fill" style="width: 85%;">85%</div>
   </div>
 </div>
 

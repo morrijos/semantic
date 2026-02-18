@@ -1,5 +1,5 @@
 ---
-title: "semantic"
+title: "semantics"
 ---
 
 This is a Quarto website.
