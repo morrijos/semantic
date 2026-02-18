@@ -1,7 +1,8 @@
 ---
-title: "SEMANTICS"
+title: "BLOG"
+listing:
+  contents: posts
+  fields: [image, date, title, description]
+  sort: "date desc"
+  type: default
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

@@ -6,8 +6,8 @@ website:
   title: "SEMANTICS"
   navbar:
     left:
-      - href: blog.qmd
-        text: BLOG
+      - href: index.qmd
+        text: HOME
       - href: about.qmd
         text: ABOUT
 
