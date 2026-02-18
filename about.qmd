@@ -50,29 +50,30 @@ Bachelor of Science (BSc), Biology
 Aug 2012-May 2015  
 Denver, CO  
 
-### TECHNICAL SKILLS
-```{=html}
-<div class="skill">
-  <div class="skill-label">Python</div>
-  <div class="skill-bar">
-    <div class="skill-fill w70">70%</div>
-  </div>
-</div>
+DOWNLOAD RESUMÉ
 
-<div class="skill">
-  <div class="skill-label">R</div>
-  <div class="skill-bar">
-    <div class="skill-fill w80">80%</div>
-  </div>
-</div>
+:::skill
+**Python**
 
-<div class="skill">
-  <div class="skill-label">SQL</div>
-  <div class="skill-bar">
-    <div class="skill-fill w85">85%</div>
-  </div>
-</div>
+:::skill-bar
+[70%]{.skill-fill .w70}
+:::
+:::
 
+:::skill
+**R**
 
+:::skill-bar
+[80%]{.skill-fill .w80}
+:::
+:::
+
+:::skill
+**SQL**
+
+:::skill-bar
+[85%]{.skill-fill .w85}
+:::
+:::
 
 :::
