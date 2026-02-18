@@ -3,15 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "semantics"
+  title: "SEMANTICS"
   navbar:
     left:
-      - href: index.qmd
-        text: HOME
-      - href: about.qmd
-        text: ABOUT
       - href: blog.qmd
         text: BLOG
+      - href: about.qmd
+        text: ABOUT
 
   repo-url: https://github.com/morrijos/semantic
   repo-actions: [source, edit, issue]
