@@ -52,26 +52,28 @@ Denver, CO
 
 ### TECHNICAL SKILLS
 
-```{=html}
-<div class="skill">
-  <div class="skill-label">Python</div>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width: 70%;">70%</div>
+<section class="skills-section">
+  <h2>My Skills</h2>
+  <div class="skill">
+    <p>HTML & CSS</p>
+    <div class="progress-container">
+      <div class="progress-bar html" style="width: 90%;">90%</div>
+    </div>
   </div>
-</div>
 
-<div class="skill">
-  <div class="skill-label">R</div>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width: 80%;">80%</div>
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="progress-container">
+      <div class="progress-bar js" style="width: 80%;">80%</div>
+    </div>
   </div>
-</div>
 
-<div class="skill">
-  <div class="skill-label">SQL</div>
-  <div class="skill-bar">
-    <div class="skill-fill" style="width: 85%;">85%</div>
+  <div class="skill">
+    <p>Python</p>
+    <div class="progress-container">
+      <div class="progress-bar python" style="width: 70%;">70%</div>
+    </div>
   </div>
-</div>
+</section>
 
 :::
