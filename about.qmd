@@ -53,6 +53,14 @@ Denver, CO
 [**DOWNLOAD RESUMÉ**](/files/2026 Morrison Resume.pdf)
 
 :::skill
+**C++**
+
+:::skill-bar
+[50%]{.skill-fill .w50}
+:::
+:::
+
+:::skill
 **Python**
 
 :::skill-bar
@@ -64,7 +72,7 @@ Denver, CO
 **R**
 
 :::skill-bar
-[80%]{.skill-fill .w80}
+[85%]{.skill-fill .w85}
 :::
 :::
 
@@ -73,6 +81,14 @@ Denver, CO
 
 :::skill-bar
 [85%]{.skill-fill .w85}
+:::
+:::
+
+:::skill
+**Tableau**
+
+:::skill-bar
+[60%]{.skill-fill .w60}
 :::
 :::
 
