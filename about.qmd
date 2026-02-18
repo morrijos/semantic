@@ -56,7 +56,7 @@ Denver, CO
 **Python**
 
 :::skill-bar
-{.skill-fill .w70}
+[70%]{.skill-fill .w70}
 :::
 :::
 
@@ -64,7 +64,7 @@ Denver, CO
 **R**
 
 :::skill-bar
-{.skill-fill .w80}
+[80%]{.skill-fill .w80}
 :::
 :::
 
@@ -72,7 +72,7 @@ Denver, CO
 **SQL**
 
 :::skill-bar
-{.skill-fill .w85}
+[85%]{.skill-fill .w85}
 :::
 :::
 

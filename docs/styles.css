@@ -22,7 +22,7 @@ body {
   color: white;
   text-align: right;
   padding-right: 8px;
-  font-size: 0.85rem;
+  font-size: 0;
   line-height: 22px;
   border-radius: 999px;  /* <- fully rounded */
 }
