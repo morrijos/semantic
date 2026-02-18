@@ -15,7 +15,7 @@ about:
     - icon: linkedin
       href: https://linkedin.com/in/morrijos
     - text: DOWNLOAD RESUMÉ
-      href: /files/2026 Morrison Resume.pdf
+      href: files/2026 Morrison Resume.pdf
 
 ---
 
@@ -52,10 +52,8 @@ Bachelor of Science (BSc), Biology
 Aug 2012-May 2015  
 Denver, CO  
 
-[**DOWNLOAD RESUMÉ**](/files/2026 Morrison Resume.pdf)
-
 :::skill
-**C++**
+**C++** :cry:
 
 :::skill-bar
 [50%]{.skill-fill .w50}
@@ -63,7 +61,7 @@ Denver, CO
 :::
 
 :::skill
-**Python**
+**Python** :snake:
 
 :::skill-bar
 [70%]{.skill-fill .w70}
@@ -71,7 +69,7 @@ Denver, CO
 :::
 
 :::skill
-**R**
+**R** :parrot:
 
 :::skill-bar
 [85%]{.skill-fill .w85}
@@ -79,7 +77,7 @@ Denver, CO
 :::
 
 :::skill
-**SQL**
+**SQL** :canned_food:
 
 :::skill-bar
 [85%]{.skill-fill .w85}
@@ -87,7 +85,7 @@ Denver, CO
 :::
 
 :::skill
-**Tableau**
+**Tableau** :chart_with_upwards_trend:
 
 :::skill-bar
 [60%]{.skill-fill .w60}
