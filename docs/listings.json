@@ -2,12 +2,14 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/semantic-web.html",
       "/posts/hello-world.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/semantic-web.html",
       "/posts/hello-world.html"
     ]
   }

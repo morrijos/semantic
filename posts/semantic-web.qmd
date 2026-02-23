@@ -1,0 +1,9 @@
+---
+title: "GETTING TO KNOW THE SEMANTIC WEB"
+date: 2026-02-22
+categories: [None]
+---
+
+I'm wrapping up this week by watching some introductory videos about the semantic web and semantic web standards, particularly OWL. Semantic web technologies aren't covered in depth in any undergraduate computer science course (at least not at the University of Colorado), so I began by looking for some approachable, hopefully free, resources that don't assume much domain-specific knowledge. There aren't many free options available! Udemy offers a comprehensive MOOC that covers OWL, RDF and even SPARQL (https://www.udemy.com/course/semanticweb/), but it costs $120 - too much for now, but maybe I'll come back to it. Instead, I'm watching following along with this program from the Hasso Plattner Institute in Germany: https://open.hpi.de/courses/semanticweb. Next, I'll look for some videos that more specifically cover OWL standards. It looks like Stanford's Protégé team hosts "Protégé Short Courses," but I can't access it; it looks like the Protégé website is actually down this evening! Hopefully it's fixed before I attempt to install Protégé...
+
+
