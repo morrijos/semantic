@@ -4,21 +4,21 @@
     "href": "blog.html",
     "title": "BLOG",
     "section": "",
-    "text": "WHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
+    "text": "PROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "BLOG",
     "section": "",
-    "text": "WHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
+    "text": "PROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/owl.html",
-    "href": "posts/owl.html",
-    "title": "WHAT OWLS KNOW",
+    "objectID": "posts/semantic-web.html",
+    "href": "posts/semantic-web.html",
+    "title": "GETTING TO KNOW THE SEMANTIC WEB",
     "section": "",
-    "text": "We’re told that owls are the most wise of all birds. As children, we’re told to revere the wisdom of these bespectacled, nocturnal, hunters but without any evidence that they’re smarter than, say, a… woodcock, a bird that I think appears equally perceptive. But let’s suspend disbelief and assume that owls are the wisest of the bird kingdom. Then, let’s suspend disbelief again and imagine that owls can find employment as computer scientists or informaticists.\nBeing wise as they are, owls would certainly endorse a codified, international, standard for describing domain-specific knowledge. Maybe it’s no coincidence that OWL has become W3C’s standard language for authoring an ontology: a structured description of concepts, and the relationship between them, within some domain of knowledge.\nOWL became W3C’s semantic language of choice in 2004, over 20 years ago, not long after Tim Berners-Lee proposed the so-called Semantic Web as the rebirth of the World Wide Web. Berners-Lee imagined ripping out the web’s tangled mess of hyperlinks and replacing them all with a systematic, interconnected, web of datapoints described, and separated by, the relationships between themselves. Unlike the World Wide Web, the Semantic Web would be machine-readable and allow for more automated processing.\nIt never happened. Nobody wanted to remake their website with semantic web standards. Then LLMs were unleashed on the world. After being trained on millions and millions of documents scraped from the web, they “learned” how to read information from the unstructured, supposedly unreadable, World Wide Web.\nSo why do we still care about semantic data architecture? Learning OWL sounds about as useful as learning a dead language like Latin.\nLLMs, despite hastening the early death of the Semantic Web, benefit from a little structured data on top of the massive ocean of unstructured data that feeds their abilities. This so-called semantic layer refines their output, adds precision to their responses, and prevents hallucinations. Semantic descriptions of data provide domain-specific context that allow AI tools to generate consistent, business-friendly outputs.\nLLMs might even help us with some of the drudgery that prevented the realization of Tim Berger-Lee’s semantic web.\nNot even an owl could’ve seen that coming."
+    "text": "I’m wrapping up this week by watching some introductory videos about the semantic web and semantic web standards, particularly OWL. Semantic web technologies aren’t covered in depth in any undergraduate computer science course (at least not at the University of Colorado), so I began by looking for some approachable, hopefully free, resources that don’t assume much domain-specific knowledge. There aren’t many free options available! Udemy offers a comprehensive MOOC that covers OWL, RDF and even SPARQL (https://www.udemy.com/course/semanticweb/), but it costs $120 - too much for now, but maybe I’ll come back to it. Instead, I’m watching following along with this program from the Hasso Plattner Institute in Germany: https://open.hpi.de/courses/semanticweb. Next, I’ll look for some videos that more specifically cover OWL standards. It looks like Stanford’s Protégé team hosts “Protégé Short Courses,” but I can’t access it; it looks like the Protégé website is actually down this evening! Hopefully it’s fixed before I attempt to install Protégé…"
   },
   {
     "objectID": "posts/hello-world.html",
@@ -28,11 +28,18 @@
     "text": "Join me as I explore tools for semantic data."
   },
   {
-    "objectID": "posts/semantic-web.html",
-    "href": "posts/semantic-web.html",
-    "title": "GETTING TO KNOW THE SEMANTIC WEB",
+    "objectID": "posts/owl.html",
+    "href": "posts/owl.html",
+    "title": "WHAT OWLS KNOW",
     "section": "",
-    "text": "I’m wrapping up this week by watching some introductory videos about the semantic web and semantic web standards, particularly OWL. Semantic web technologies aren’t covered in depth in any undergraduate computer science course (at least not at the University of Colorado), so I began by looking for some approachable, hopefully free, resources that don’t assume much domain-specific knowledge. There aren’t many free options available! Udemy offers a comprehensive MOOC that covers OWL, RDF and even SPARQL (https://www.udemy.com/course/semanticweb/), but it costs $120 - too much for now, but maybe I’ll come back to it. Instead, I’m watching following along with this program from the Hasso Plattner Institute in Germany: https://open.hpi.de/courses/semanticweb. Next, I’ll look for some videos that more specifically cover OWL standards. It looks like Stanford’s Protégé team hosts “Protégé Short Courses,” but I can’t access it; it looks like the Protégé website is actually down this evening! Hopefully it’s fixed before I attempt to install Protégé…"
+    "text": "We’re told that owls are the most wise of all birds. As children, we’re told to revere the wisdom of these bespectacled, nocturnal, hunters but without any evidence that they’re smarter than, say, a… woodcock, a bird that I think appears equally perceptive. But let’s suspend disbelief and assume that owls are the wisest of the bird kingdom. Then, let’s suspend disbelief again and imagine that owls can find employment as computer scientists or informaticists.\nBeing wise as they are, owls would certainly endorse a codified, international, standard for describing domain-specific knowledge. Maybe it’s no coincidence that OWL has become W3C’s standard language for authoring an ontology: a structured description of concepts, and the relationship between them, within some domain of knowledge.\nOWL became W3C’s semantic language of choice in 2004, over 20 years ago, not long after Tim Berners-Lee proposed the so-called Semantic Web as the rebirth of the World Wide Web. Berners-Lee imagined ripping out the web’s tangled mess of hyperlinks and replacing them all with a systematic, interconnected, web of datapoints described, and separated by, the relationships between themselves. Unlike the World Wide Web, the Semantic Web would be machine-readable and allow for more automated processing.\nIt never happened. Nobody wanted to remake their website with semantic web standards. Then LLMs were unleashed on the world. After being trained on millions and millions of documents scraped from the web, they “learned” how to read information from the unstructured, supposedly unreadable, World Wide Web.\nSo why do we still care about semantic data architecture? Learning OWL sounds about as useful as learning a dead language like Latin.\nLLMs, despite hastening the early death of the Semantic Web, benefit from a little structured data on top of the massive ocean of unstructured data that feeds their abilities. This so-called semantic layer refines their output, adds precision to their responses, and prevents hallucinations. Semantic descriptions of data provide domain-specific context that allow AI tools to generate consistent, business-friendly outputs.\nLLMs might even help us with some of the drudgery that prevented the realization of Tim Berger-Lee’s semantic web.\nNot even an owl could’ve seen that coming."
+  },
+  {
+    "objectID": "posts/progress.html",
+    "href": "posts/progress.html",
+    "title": "PROGRESS",
+    "section": "",
+    "text": "What have I been doing in the last week or two? I downloaded the Protege desktop app from https://protege.stanford.edu and imported the ICD-10 PCS ontology from BioPortal. I was a little worried about installing the desktop app because I saw that some users were have difficulty installing it on Mac. I tried using the Protege web app, but it doesn’t appear to have a tab for writing SPARQL queries against an ontology. There’s some discussion online about the web app’s functionality; users are wondering why the Protege web app doesn’t support SPARQL; or, if it does, how to use it. At least the desktop app does have a pane for writing SPARQL queries, and I was able to install Protege without much trouble, so I’ll be able to move onto the SPARQL portion of my project"
   },
   {
     "objectID": "about.html",

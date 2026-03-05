@@ -1,0 +1,7 @@
+---
+title: "PROGRESS"
+date: 2026-03-04
+categories: [BioPortal, Protege]
+---
+
+What have I been doing in the last week or two? I downloaded the Protege desktop app from https://protege.stanford.edu and imported the ICD-10 PCS ontology from BioPortal. I was a little worried about installing the desktop app because I saw that some users were have difficulty installing it on Mac. I tried using the Protege web app, but it doesn't appear to have a tab for writing SPARQL queries against an ontology. There's some discussion online about the web app's functionality; users are wondering why the Protege web app doesn't support SPARQL; or, if it does, how to use it. At least the desktop app _does_ have a pane for writing SPARQL queries, and I was able to install Protege without much trouble, so I'll be able to move onto the SPARQL portion of my project 

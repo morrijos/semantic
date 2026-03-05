@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/progress.html",
       "/posts/owl.html",
       "/posts/semantic-web.html",
       "/posts/hello-world.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/progress.html",
       "/posts/owl.html",
       "/posts/semantic-web.html",
       "/posts/hello-world.html"

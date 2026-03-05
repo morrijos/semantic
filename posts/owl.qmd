@@ -17,7 +17,7 @@ It never happened. Nobody wanted to remake their website with semantic web stand
 
 So why do we still care about semantic data architecture? Learning OWL sounds about as useful as learning a dead language like Latin.
 
-LLMs, despite hastening the early death of the Semantic Web, benefit from a little structured data on top of the massive ocean of unstructured data that feeds their abilities. This so-called semantic layer refines their output, adds precision to their responses, and prevents hallucinations. Semantic descriptions of data provide domain-specific context that allow AI tools to generate consistent, business-friendly outputs.
+LLMs, despite hastening the early death of the Semantic Web, benefit from a little structured data on top of the massive ocean of *unstructured* data that feeds their abilities. This so-called semantic layer refines their output, adds precision to their responses, and prevents hallucinations. Semantic descriptions of data provide domain-specific context that allow AI tools to generate consistent, business-friendly outputs.
 
 LLMs might even help us with some of the drudgery that prevented the realization of Tim Berger-Lee’s semantic web.
 
