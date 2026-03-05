@@ -2,7 +2,10 @@
 title: "WHAT OWLS KNOW"
 date: 2026-03-02
 categories: [OWL]
+image: "/images/Pearson Scott Foresman.png"
 ---
+
+<img src="/images/Pearson Scott Foresman.png" alt="Owl 1557" width="314" width="256">
 
 We’re told that owls are the most wise of all birds. As children, we’re told to revere the wisdom of these bespectacled, nocturnal, hunters but without any evidence that they’re smarter than, say, a… woodcock, a bird that I think appears equally perceptive. But let’s suspend disbelief and assume that owls are the wisest of the bird kingdom. Then, let’s suspend disbelief again and imagine that owls can find employment as computer scientists or informaticists. 
 
