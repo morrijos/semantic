@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/my-ontology-part-1.html",
       "/posts/progress.html",
       "/posts/owl.html",
       "/posts/semantic-web.html",
@@ -11,6 +12,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/my-ontology-part-1.html",
       "/posts/progress.html",
       "/posts/owl.html",
       "/posts/semantic-web.html",

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-19">
 
-<title>BLOG – SEMANTICS</title>
+<title>Ontology Development: Part 1 – SEMANTICS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,67 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SEMANTICS</span>
     </a>
   </div>
@@ -151,11 +92,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">HOME</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">ABOUT</span></a>
   </li>  
 </ul>
@@ -169,22 +110,46 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#step-1-determine-the-domain-and-scope-of-the-ontology" id="toc-step-1-determine-the-domain-and-scope-of-the-ontology" class="nav-link" data-scroll-target="#step-1-determine-the-domain-and-scope-of-the-ontology">Step 1: Determine the Domain and Scope of the Ontology</a>
+  <ul class="collapse">
+  <li><a href="#answers" id="toc-answers" class="nav-link" data-scroll-target="#answers">Answers</a></li>
+  </ul></li>
+  <li><a href="#competency-questions" id="toc-competency-questions" class="nav-link" data-scroll-target="#competency-questions">Competency Questions</a></li>
+  <li><a href="#step-2-consider-reusing-existing-ontologies" id="toc-step-2-consider-reusing-existing-ontologies" class="nav-link" data-scroll-target="#step-2-consider-reusing-existing-ontologies">Step 2: Consider Reusing Existing Ontologies</a></li>
+  <li><a href="#step-3-enumerate-important-terms-in-the-ontology" id="toc-step-3-enumerate-important-terms-in-the-ontology" class="nav-link" data-scroll-target="#step-3-enumerate-important-terms-in-the-ontology">Step 3: Enumerate Important Terms in the Ontology</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/morrijos/semantic/blob/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/morrijos/semantic/edit/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/morrijos/semantic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BLOG</h1>
-</div>
+<h1 class="title">Ontology Development: Part 1</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">OWL</div>
+    <div class="quarto-category">Protege</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 19, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,125 +159,92 @@ window.Quarto = {
 </header>
 
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, <em>Ontology Development 101: A Guide to Creating Your First Ontology</em>, by Noy and McGuinness (2001):</p>
+<p>https://protege.stanford.edu/publications/ontology_development/ontology101.pdf</p>
+<p>There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.</p>
+<p>I’ll develop an ontology specific to my domain of career expertise: <strong>health quality measurement</strong>. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).</p>
+<p>If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:</p>
+<p>https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis</p>
+<hr>
+</section>
+<section id="step-1-determine-the-domain-and-scope-of-the-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-determine-the-domain-and-scope-of-the-ontology">Step 1: Determine the Domain and Scope of the Ontology</h2>
+<p>Noy and McGuinness suggest answering the following foundational questions:</p>
+<ul>
+<li>What is the domain that the ontology will cover?<br>
+</li>
+<li>How will the ontology be used?<br>
+</li>
+<li>What questions will the ontology be able to answer?<br>
+</li>
+<li>Who will use and maintain the ontology?</li>
+</ul>
+<section id="answers" class="level3">
+<h3 class="anchored" data-anchor-id="answers">Answers</h3>
+<ol type="1">
+<li><p><strong>Domain</strong><br>
+My ontology will focus on healthcare quality measurement. I will begin with HEDIS measures but may expand to include additional measurement frameworks in the future.</p></li>
+<li><p><strong>Usage</strong><br>
+It will be used by individuals or organizations that measure healthcare quality (e.g., health plans) to better understand the components of HEDIS measures, such as what data is used to calculate a measure.</p></li>
+<li><p><strong>Questions the Ontology Should Answer</strong><br>
+The ontology should help answer questions about:</p>
+<ul>
+<li>What health statuses are addressed by HEDIS measures<br>
+</li>
+<li>The degree of overlap between measures</li>
+</ul>
+<p>Example question:<br>
+<em>Do two HEDIS measures use nearly identical diagnostic codes?</em></p></li>
+<li><p><strong>Maintenance</strong><br>
+I do not currently plan to distribute this ontology. However, if I did, I would be responsible for maintaining it.</p></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="competency-questions" class="level2">
+<h2 class="anchored" data-anchor-id="competency-questions">Competency Questions</h2>
+<p>The ontology should be able to answer competency questions used to evaluate its completeness. If it cannot answer them, additional refinement is needed.</p>
+<p>Initial competency question:</p>
+<ul>
+<li><em>How much overlap is there between two HEDIS measures?</em></li>
+</ul>
+<hr>
+</section>
+<section id="step-2-consider-reusing-existing-ontologies" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-consider-reusing-existing-ontologies">Step 2: Consider Reusing Existing Ontologies</h2>
+<p>There isn’t one.</p>
+<p>Next…</p>
+<hr>
+</section>
+<section id="step-3-enumerate-important-terms-in-the-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-enumerate-important-terms-in-the-ontology">Step 3: Enumerate Important Terms in the Ontology</h2>
+<p>Now, I will list the key terms that should be included in the ontology.</p>
+<p>Noy and McGuinness use a wine ontology example with terms like <em>grape</em>, <em>winery</em>, and <em>location</em>.</p>
+<p>For my ontology, initial terms include:</p>
+<ul>
+<li>Product line (e.g., Medicaid)<br>
+</li>
+<li>Value sets<br>
+</li>
+<li>Codes<br>
+</li>
+<li>Code systems<br>
+</li>
+<li>Medications</li>
+</ul>
+<p>This list will likely expand as development progresses.</p>
+<hr>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<p>In <strong>Part 2</strong>, I will begin defining classes and class hierarchies.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="T1dMJTJDUHJvdGVnZQ==" data-listing-date-sort="1773900000000" data-listing-file-modified-sort="1773962737620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
-<div class="thumbnail"><a href="./posts/my-ontology-part-1.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/my-ontology-part-1.html" class="no-external">Ontology Development: Part 1</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/my-ontology-part-1.html" class="no-external">
-Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, <em>…</em>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/my-ontology-part-1.html" class="no-external">
-<div class="listing-date">
-Mar 19, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="QmlvUG9ydGFsJTJDUHJvdGVnZQ==" data-listing-date-sort="1772607600000" data-listing-file-modified-sort="1772675037893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
-<div class="thumbnail"><a href="./posts/progress.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/progress.html" class="no-external">PROGRESS</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/progress.html" class="no-external">
-What have I been doing in the last week or two? I downloaded the Protege desktop app from https://protege.stanford.edu and imported the ICD-10 PCS ontology from BioPortal. I…<em></em>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/progress.html" class="no-external">
-<div class="listing-date">
-Mar 4, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="T1dM" data-listing-date-sort="1772434800000" data-listing-file-modified-sort="1772674543969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
-<div class="thumbnail"><a href="./posts/owl.html" class="no-external">
-
-<img loading="lazy" src="./images/Pearson Scott Foresman.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/owl.html" class="no-external">WHAT OWLS KNOW</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/owl.html" class="no-external">
-We’re told that owls are the most wise of all birds. As children, we’re told to revere the wisdom of these bespectacled, nocturnal, hunters but without any evidence that…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/owl.html" class="no-external">
-<div class="listing-date">
-Mar 2, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Tm9uZQ==" data-listing-date-sort="1771743600000" data-listing-file-modified-sort="1771817015967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<div class="thumbnail"><a href="./posts/semantic-web.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/semantic-web.html" class="no-external">GETTING TO KNOW THE SEMANTIC WEB</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/semantic-web.html" class="no-external">
-I’m wrapping up this week by watching some introductory videos about the semantic web and semantic web standards, particularly OWL. Semantic web technologies aren’t covered…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/semantic-web.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Tm9uZQ==" data-listing-date-sort="1771052400000" data-listing-file-modified-sort="1771376218119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./posts/hello-world.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/hello-world.html" class="no-external">HELLO WORLD!</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/hello-world.html" class="no-external">
-Join me as I explore tools for semantic data.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/hello-world.html" class="no-external">
-<div class="listing-date">
-Feb 14, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -718,4 +650,4 @@ Feb 14, 2026
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/morrijos/semantic/blob/main/blog.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/morrijos/semantic/edit/main/blog.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/morrijos/semantic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/morrijos/semantic/blob/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/morrijos/semantic/edit/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/morrijos/semantic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

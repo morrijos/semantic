@@ -1,0 +1,97 @@
+---
+title: "ONTOLOGY DEVELOPMENT - PART 1"
+date: 2026-03-19
+format: html
+categories: [OWL, Protege]
+---
+
+---
+title: "Ontology Development: Part 1"
+format: html
+---
+
+## Introduction
+
+Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, *Ontology Development 101: A Guide to Creating Your First Ontology*, by Noy and McGuinness (2001):
+
+https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
+
+There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.
+
+I’ll develop an ontology specific to my domain of career expertise: **health quality measurement**. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).
+
+If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:
+
+https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis
+
+---
+
+## Step 1: Determine the Domain and Scope of the Ontology
+
+Noy and McGuinness suggest answering the following foundational questions:
+
+- What is the domain that the ontology will cover?  
+- How will the ontology be used?  
+- What questions will the ontology be able to answer?  
+- Who will use and maintain the ontology?  
+
+### Answers
+
+1. **Domain**  
+   My ontology will focus on healthcare quality measurement. I will begin with HEDIS measures but may expand to include additional measurement frameworks in the future.
+
+2. **Usage**  
+   It will be used by individuals or organizations that measure healthcare quality (e.g., health plans) to better understand the components of HEDIS measures, such as what data is used to calculate a measure.
+
+3. **Questions the Ontology Should Answer**  
+   The ontology should help answer questions about:
+   - What health statuses are addressed by HEDIS measures  
+   - The degree of overlap between measures  
+
+   Example question:  
+   *Do two HEDIS measures use nearly identical diagnostic codes?*
+
+4. **Maintenance**  
+   I do not currently plan to distribute this ontology. However, if I did, I would be responsible for maintaining it.
+
+---
+
+## Competency Questions
+
+The ontology should be able to answer competency questions used to evaluate its completeness. If it cannot answer them, additional refinement is needed.
+
+Initial competency question:
+
+- *How much overlap is there between two HEDIS measures?*
+
+---
+
+## Step 2: Consider Reusing Existing Ontologies
+
+There isn’t one.
+
+Next...
+
+---
+
+## Step 3: Enumerate Important Terms in the Ontology
+
+Now, I will list the key terms that should be included in the ontology.
+
+Noy and McGuinness use a wine ontology example with terms like *grape*, *winery*, and *location*.  
+
+For my ontology, initial terms include:
+
+- Product line (e.g., Medicaid)  
+- Value sets  
+- Codes  
+- Code systems  
+- Medications  
+
+This list will likely expand as development progresses.
+
+---
+
+## Next Steps
+
+In **Part 2**, I will begin defining classes and class hierarchies.
