@@ -5,93 +5,63 @@ format: html
 categories: [OWL, Protege]
 ---
 
----
-title: "Ontology Development: Part 1"
-format: html
----
+## INTRODUCTION
 
-## Introduction
+Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, *Ontology Development 101: A Guide to Creating Your First Ontology*, by Noy and McGuinness (2001):[Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf)
 
-Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, *Ontology Development 101: A Guide to Creating Your First Ontology*, by Noy and McGuinness (2001):
-
-https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
-
-There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.
-
-I’ll develop an ontology specific to my domain of career expertise: **health quality measurement**. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).
-
-If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:
-
-https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis
+There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of _domain-specific knowledge_. I’ll develop an ontology specific to my domain of career expertise: _health quality measurement_. More specifically, I’ll develop an ontology that describes components of the Healthcare Effectiveness Data and Information Set (HEDIS) published by the National Committee for Quality Assurance (NCQA). If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of _HEDIS Volume 2_ and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans as part of their Health Care Performance Measures: [HEDIS Quality Measure Toolkit](https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis)
 
 ---
 
-## Step 1: Determine the Domain and Scope of the Ontology
+## STEP 1: DETERMINE THE DOMAIN & SCOPE OF THE ONTOLOGY
 
-Noy and McGuinness suggest answering the following foundational questions:
+Noy and McGuinness suggest that the following questions should be answered prior to publishing an ontology:
 
 - What is the domain that the ontology will cover?  
 - How will the ontology be used?  
 - What questions will the ontology be able to answer?  
 - Who will use and maintain the ontology?  
 
-### Answers
+Here are my answers:
 
-1. **Domain**  
-   My ontology will focus on healthcare quality measurement. I will begin with HEDIS measures but may expand to include additional measurement frameworks in the future.
+- My ontology will be used in the domain of healthcare quality measurement; I’ll begin with HEDIS measures, specifically, but it could be amended to include more measurement schemes in the future. 
+- My ontology will be used to support the development of interoperable technologies that report healthcare quality measures (like HEDIS) from disparate sources of electronic health information.
+- My ontology will also help to answer questions about the overlap between similar healthcare quality measures. 
+- I don't plan to publish my ontology, but I would (presumably) be responsible for maintaining it.
 
-2. **Usage**  
-   It will be used by individuals or organizations that measure healthcare quality (e.g., health plans) to better understand the components of HEDIS measures, such as what data is used to calculate a measure.
 
-3. **Questions the Ontology Should Answer**  
-   The ontology should help answer questions about:
-   - What health statuses are addressed by HEDIS measures  
-   - The degree of overlap between measures  
+## COMPETENCY QUESTIONS
 
-   Example question:  
-   *Do two HEDIS measures use nearly identical diagnostic codes?*
+A list of **competency questions** can also be helpful for understanding the proposed information content of the ontology. If the ontology can’t be used to answer the questions, then more information needs to be added. For now, I’ll begin with the following, simple question: 
 
-4. **Maintenance**  
-   I do not currently plan to distribute this ontology. However, if I did, I would be responsible for maintaining it.
+*How much informational overlap is there between any two HEDIS measures?*
 
 ---
 
-## Competency Questions
+## STEP 2: CONSIDER RE-USING EXISTING ONTOLOGIES
 
-The ontology should be able to answer competency questions used to evaluate its completeness. If it cannot answer them, additional refinement is needed.
-
-Initial competency question:
-
-- *How much overlap is there between two HEDIS measures?*
-
----
-
-## Step 2: Consider Reusing Existing Ontologies
-
-There isn’t one.
+There aren't any.
 
 Next...
 
 ---
 
-## Step 3: Enumerate Important Terms in the Ontology
+## STEP 3: ENUMERATE IMPORTANT TERMS IN THE ONTOLOGY
 
-Now, I will list the key terms that should be included in the ontology.
-
-Noy and McGuinness use a wine ontology example with terms like *grape*, *winery*, and *location*.  
+Now, I will list the key terms that should be included in the ontology. For example, an ontology for wines would include terms like `grape`, `location`, and `winery`.
 
 For my ontology, initial terms include:
 
-- Product line (e.g., Medicaid)  
-- Value sets  
-- Codes  
-- Code systems  
-- Medications  
+- `product line` (e.g., Medicaid)  
+- `value sets`  
+- `codes`  
+- `code systems`  
+- `medications`  
 
-This list will likely expand as development progresses.
+My list will probably grow as I continue...
 
 ---
 
-## Next Steps
+## NEXT STEPS
 
 In **Part 2**, I will begin defining classes and class hierarchies.

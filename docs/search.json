@@ -4,14 +4,14 @@
     "href": "blog.html",
     "title": "BLOG",
     "section": "",
-    "text": "Ontology Development: Part 1\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
+    "text": "ONTOLOGY DEVELOPMENT - PART 1\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "BLOG",
     "section": "",
-    "text": "Ontology Development: Part 1\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
+    "text": "ONTOLOGY DEVELOPMENT - PART 1\n\n\n\n\n\n\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPROGRESS\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWHAT OWLS KNOW\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nGETTING TO KNOW THE SEMANTIC WEB\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHELLO WORLD!\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/progress.html",
@@ -44,51 +44,51 @@
   {
     "objectID": "posts/my-ontology-part-1.html",
     "href": "posts/my-ontology-part-1.html",
-    "title": "Ontology Development: Part 1",
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
     "section": "",
-    "text": "Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, Ontology Development 101: A Guide to Creating Your First Ontology, by Noy and McGuinness (2001):\nhttps://protege.stanford.edu/publications/ontology_development/ontology101.pdf\nThere are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.\nI’ll develop an ontology specific to my domain of career expertise: health quality measurement. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).\nIf you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:\nhttps://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis"
+    "text": "Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, Ontology Development 101: A Guide to Creating Your First Ontology, by Noy and McGuinness (2001):Ontology Development 101: A Guide to Creating Your First Ontology\nThere are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge. I’ll develop an ontology specific to my domain of career expertise: health quality measurement. More specifically, I’ll develop an ontology that describes components of the Healthcare Effectiveness Data and Information Set (HEDIS) published by the National Committee for Quality Assurance (NCQA). If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans as part of their Health Care Performance Measures: HEDIS Quality Measure Toolkit"
   },
   {
     "objectID": "posts/my-ontology-part-1.html#introduction",
     "href": "posts/my-ontology-part-1.html#introduction",
-    "title": "Ontology Development: Part 1",
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
     "section": "",
-    "text": "Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, Ontology Development 101: A Guide to Creating Your First Ontology, by Noy and McGuinness (2001):\nhttps://protege.stanford.edu/publications/ontology_development/ontology101.pdf\nThere are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.\nI’ll develop an ontology specific to my domain of career expertise: health quality measurement. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).\nIf you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:\nhttps://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis"
+    "text": "Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, Ontology Development 101: A Guide to Creating Your First Ontology, by Noy and McGuinness (2001):Ontology Development 101: A Guide to Creating Your First Ontology\nThere are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge. I’ll develop an ontology specific to my domain of career expertise: health quality measurement. More specifically, I’ll develop an ontology that describes components of the Healthcare Effectiveness Data and Information Set (HEDIS) published by the National Committee for Quality Assurance (NCQA). If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans as part of their Health Care Performance Measures: HEDIS Quality Measure Toolkit"
   },
   {
-    "objectID": "posts/my-ontology-part-1.html#step-1-determine-the-domain-and-scope-of-the-ontology",
-    "href": "posts/my-ontology-part-1.html#step-1-determine-the-domain-and-scope-of-the-ontology",
-    "title": "Ontology Development: Part 1",
-    "section": "Step 1: Determine the Domain and Scope of the Ontology",
-    "text": "Step 1: Determine the Domain and Scope of the Ontology\nNoy and McGuinness suggest answering the following foundational questions:\n\nWhat is the domain that the ontology will cover?\n\nHow will the ontology be used?\n\nWhat questions will the ontology be able to answer?\n\nWho will use and maintain the ontology?\n\n\nAnswers\n\nDomain\nMy ontology will focus on healthcare quality measurement. I will begin with HEDIS measures but may expand to include additional measurement frameworks in the future.\nUsage\nIt will be used by individuals or organizations that measure healthcare quality (e.g., health plans) to better understand the components of HEDIS measures, such as what data is used to calculate a measure.\nQuestions the Ontology Should Answer\nThe ontology should help answer questions about:\n\nWhat health statuses are addressed by HEDIS measures\n\nThe degree of overlap between measures\n\nExample question:\nDo two HEDIS measures use nearly identical diagnostic codes?\nMaintenance\nI do not currently plan to distribute this ontology. However, if I did, I would be responsible for maintaining it."
+    "objectID": "posts/my-ontology-part-1.html#step-1-determine-the-domain-scope-of-the-ontology",
+    "href": "posts/my-ontology-part-1.html#step-1-determine-the-domain-scope-of-the-ontology",
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
+    "section": "STEP 1: DETERMINE THE DOMAIN & SCOPE OF THE ONTOLOGY",
+    "text": "STEP 1: DETERMINE THE DOMAIN & SCOPE OF THE ONTOLOGY\nNoy and McGuinness suggest that the following questions should be answered prior to publishing an ontology:\n\nWhat is the domain that the ontology will cover?\n\nHow will the ontology be used?\n\nWhat questions will the ontology be able to answer?\n\nWho will use and maintain the ontology?\n\nHere are my answers:\n\nMy ontology will be used in the domain of healthcare quality measurement; I’ll begin with HEDIS measures, specifically, but it could be amended to include more measurement schemes in the future.\nMy ontology will be used to support the development of interoperable technologies that report healthcare quality measures (like HEDIS) from disparate sources of electronic health information.\nMy ontology will also help to answer questions about the overlap between similar healthcare quality measures.\nI don’t plan to publish my ontology, but I would (presumably) be responsible for maintaining it."
   },
   {
     "objectID": "posts/my-ontology-part-1.html#competency-questions",
     "href": "posts/my-ontology-part-1.html#competency-questions",
-    "title": "Ontology Development: Part 1",
-    "section": "Competency Questions",
-    "text": "Competency Questions\nThe ontology should be able to answer competency questions used to evaluate its completeness. If it cannot answer them, additional refinement is needed.\nInitial competency question:\n\nHow much overlap is there between two HEDIS measures?"
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
+    "section": "COMPETENCY QUESTIONS",
+    "text": "COMPETENCY QUESTIONS\nA list of competency questions can also be helpful for understanding the proposed information content of the ontology. If the ontology can’t be used to answer the questions, then more information needs to be added. For now, I’ll begin with the following, simple question:\nHow much informational overlap is there between any two HEDIS measures?"
   },
   {
-    "objectID": "posts/my-ontology-part-1.html#step-2-consider-reusing-existing-ontologies",
-    "href": "posts/my-ontology-part-1.html#step-2-consider-reusing-existing-ontologies",
-    "title": "Ontology Development: Part 1",
-    "section": "Step 2: Consider Reusing Existing Ontologies",
-    "text": "Step 2: Consider Reusing Existing Ontologies\nThere isn’t one.\nNext…"
+    "objectID": "posts/my-ontology-part-1.html#step-2-consider-re-using-existing-ontologies",
+    "href": "posts/my-ontology-part-1.html#step-2-consider-re-using-existing-ontologies",
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
+    "section": "STEP 2: CONSIDER RE-USING EXISTING ONTOLOGIES",
+    "text": "STEP 2: CONSIDER RE-USING EXISTING ONTOLOGIES\nThere aren’t any.\nNext…"
   },
   {
     "objectID": "posts/my-ontology-part-1.html#step-3-enumerate-important-terms-in-the-ontology",
     "href": "posts/my-ontology-part-1.html#step-3-enumerate-important-terms-in-the-ontology",
-    "title": "Ontology Development: Part 1",
-    "section": "Step 3: Enumerate Important Terms in the Ontology",
-    "text": "Step 3: Enumerate Important Terms in the Ontology\nNow, I will list the key terms that should be included in the ontology.\nNoy and McGuinness use a wine ontology example with terms like grape, winery, and location.\nFor my ontology, initial terms include:\n\nProduct line (e.g., Medicaid)\n\nValue sets\n\nCodes\n\nCode systems\n\nMedications\n\nThis list will likely expand as development progresses."
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
+    "section": "STEP 3: ENUMERATE IMPORTANT TERMS IN THE ONTOLOGY",
+    "text": "STEP 3: ENUMERATE IMPORTANT TERMS IN THE ONTOLOGY\nNow, I will list the key terms that should be included in the ontology. For example, an ontology for wines would include terms like grape, location, and winery.\nFor my ontology, initial terms include:\n\nproduct line (e.g., Medicaid)\n\nvalue sets\n\ncodes\n\ncode systems\n\nmedications\n\nMy list will probably grow as I continue…"
   },
   {
     "objectID": "posts/my-ontology-part-1.html#next-steps",
     "href": "posts/my-ontology-part-1.html#next-steps",
-    "title": "Ontology Development: Part 1",
-    "section": "Next Steps",
-    "text": "Next Steps\nIn Part 2, I will begin defining classes and class hierarchies."
+    "title": "ONTOLOGY DEVELOPMENT - PART 1",
+    "section": "NEXT STEPS",
+    "text": "NEXT STEPS\nIn Part 2, I will begin defining classes and class hierarchies."
   },
   {
     "objectID": "about.html",

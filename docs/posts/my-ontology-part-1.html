@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-03-19">
 
-<title>Ontology Development: Part 1 – SEMANTICS</title>
+<title>ONTOLOGY DEVELOPMENT - PART 1 – SEMANTICS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,15 +115,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#step-1-determine-the-domain-and-scope-of-the-ontology" id="toc-step-1-determine-the-domain-and-scope-of-the-ontology" class="nav-link" data-scroll-target="#step-1-determine-the-domain-and-scope-of-the-ontology">Step 1: Determine the Domain and Scope of the Ontology</a>
-  <ul class="collapse">
-  <li><a href="#answers" id="toc-answers" class="nav-link" data-scroll-target="#answers">Answers</a></li>
-  </ul></li>
-  <li><a href="#competency-questions" id="toc-competency-questions" class="nav-link" data-scroll-target="#competency-questions">Competency Questions</a></li>
-  <li><a href="#step-2-consider-reusing-existing-ontologies" id="toc-step-2-consider-reusing-existing-ontologies" class="nav-link" data-scroll-target="#step-2-consider-reusing-existing-ontologies">Step 2: Consider Reusing Existing Ontologies</a></li>
-  <li><a href="#step-3-enumerate-important-terms-in-the-ontology" id="toc-step-3-enumerate-important-terms-in-the-ontology" class="nav-link" data-scroll-target="#step-3-enumerate-important-terms-in-the-ontology">Step 3: Enumerate Important Terms in the Ontology</a></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">INTRODUCTION</a></li>
+  <li><a href="#step-1-determine-the-domain-scope-of-the-ontology" id="toc-step-1-determine-the-domain-scope-of-the-ontology" class="nav-link" data-scroll-target="#step-1-determine-the-domain-scope-of-the-ontology">STEP 1: DETERMINE THE DOMAIN &amp; SCOPE OF THE ONTOLOGY</a></li>
+  <li><a href="#competency-questions" id="toc-competency-questions" class="nav-link" data-scroll-target="#competency-questions">COMPETENCY QUESTIONS</a></li>
+  <li><a href="#step-2-consider-re-using-existing-ontologies" id="toc-step-2-consider-re-using-existing-ontologies" class="nav-link" data-scroll-target="#step-2-consider-re-using-existing-ontologies">STEP 2: CONSIDER RE-USING EXISTING ONTOLOGIES</a></li>
+  <li><a href="#step-3-enumerate-important-terms-in-the-ontology" id="toc-step-3-enumerate-important-terms-in-the-ontology" class="nav-link" data-scroll-target="#step-3-enumerate-important-terms-in-the-ontology">STEP 3: ENUMERATE IMPORTANT TERMS IN THE ONTOLOGY</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">NEXT STEPS</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/morrijos/semantic/blob/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/morrijos/semantic/edit/main/posts/my-ontology-part-1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/morrijos/semantic/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -132,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ontology Development: Part 1</h1>
+<h1 class="title">ONTOLOGY DEVELOPMENT - PART 1</h1>
   <div class="quarto-categories">
     <div class="quarto-category">OWL</div>
     <div class="quarto-category">Protege</div>
@@ -160,18 +157,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, <em>Ontology Development 101: A Guide to Creating Your First Ontology</em>, by Noy and McGuinness (2001):</p>
-<p>https://protege.stanford.edu/publications/ontology_development/ontology101.pdf</p>
-<p>There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of domain-specific knowledge.</p>
-<p>I’ll develop an ontology specific to my domain of career expertise: <strong>health quality measurement</strong>. More specifically, I’ll develop an ontology that describes components of the HEDIS quality metrics published by the National Committee for Quality Assurance (NCQA).</p>
-<p>If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of HEDIS Volume 2 and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans:</p>
-<p>https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis</p>
+<h2 class="anchored" data-anchor-id="introduction">INTRODUCTION</h2>
+<p>Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, <em>Ontology Development 101: A Guide to Creating Your First Ontology</em>, by Noy and McGuinness (2001):<a href="https://protege.stanford.edu/publications/ontology_development/ontology101.pdf">Ontology Development 101: A Guide to Creating Your First Ontology</a></p>
+<p>There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of <em>domain-specific knowledge</em>. I’ll develop an ontology specific to my domain of career expertise: <em>health quality measurement</em>. More specifically, I’ll develop an ontology that describes components of the Healthcare Effectiveness Data and Information Set (HEDIS) published by the National Committee for Quality Assurance (NCQA). If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of <em>HEDIS Volume 2</em> and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans as part of their Health Care Performance Measures: <a href="https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis">HEDIS Quality Measure Toolkit</a></p>
 <hr>
 </section>
-<section id="step-1-determine-the-domain-and-scope-of-the-ontology" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-determine-the-domain-and-scope-of-the-ontology">Step 1: Determine the Domain and Scope of the Ontology</h2>
-<p>Noy and McGuinness suggest answering the following foundational questions:</p>
+<section id="step-1-determine-the-domain-scope-of-the-ontology" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-determine-the-domain-scope-of-the-ontology">STEP 1: DETERMINE THE DOMAIN &amp; SCOPE OF THE ONTOLOGY</h2>
+<p>Noy and McGuinness suggest that the following questions should be answered prior to publishing an ontology:</p>
 <ul>
 <li>What is the domain that the ontology will cover?<br>
 </li>
@@ -181,64 +174,46 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Who will use and maintain the ontology?</li>
 </ul>
-<section id="answers" class="level3">
-<h3 class="anchored" data-anchor-id="answers">Answers</h3>
-<ol type="1">
-<li><p><strong>Domain</strong><br>
-My ontology will focus on healthcare quality measurement. I will begin with HEDIS measures but may expand to include additional measurement frameworks in the future.</p></li>
-<li><p><strong>Usage</strong><br>
-It will be used by individuals or organizations that measure healthcare quality (e.g., health plans) to better understand the components of HEDIS measures, such as what data is used to calculate a measure.</p></li>
-<li><p><strong>Questions the Ontology Should Answer</strong><br>
-The ontology should help answer questions about:</p>
+<p>Here are my answers:</p>
 <ul>
-<li>What health statuses are addressed by HEDIS measures<br>
-</li>
-<li>The degree of overlap between measures</li>
+<li>My ontology will be used in the domain of healthcare quality measurement; I’ll begin with HEDIS measures, specifically, but it could be amended to include more measurement schemes in the future.</li>
+<li>My ontology will be used to support the development of interoperable technologies that report healthcare quality measures (like HEDIS) from disparate sources of electronic health information.</li>
+<li>My ontology will also help to answer questions about the overlap between similar healthcare quality measures.</li>
+<li>I don’t plan to publish my ontology, but I would (presumably) be responsible for maintaining it.</li>
 </ul>
-<p>Example question:<br>
-<em>Do two HEDIS measures use nearly identical diagnostic codes?</em></p></li>
-<li><p><strong>Maintenance</strong><br>
-I do not currently plan to distribute this ontology. However, if I did, I would be responsible for maintaining it.</p></li>
-</ol>
-<hr>
-</section>
 </section>
 <section id="competency-questions" class="level2">
-<h2 class="anchored" data-anchor-id="competency-questions">Competency Questions</h2>
-<p>The ontology should be able to answer competency questions used to evaluate its completeness. If it cannot answer them, additional refinement is needed.</p>
-<p>Initial competency question:</p>
-<ul>
-<li><em>How much overlap is there between two HEDIS measures?</em></li>
-</ul>
+<h2 class="anchored" data-anchor-id="competency-questions">COMPETENCY QUESTIONS</h2>
+<p>A list of <strong>competency questions</strong> can also be helpful for understanding the proposed information content of the ontology. If the ontology can’t be used to answer the questions, then more information needs to be added. For now, I’ll begin with the following, simple question:</p>
+<p><em>How much informational overlap is there between any two HEDIS measures?</em></p>
 <hr>
 </section>
-<section id="step-2-consider-reusing-existing-ontologies" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-consider-reusing-existing-ontologies">Step 2: Consider Reusing Existing Ontologies</h2>
-<p>There isn’t one.</p>
+<section id="step-2-consider-re-using-existing-ontologies" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-consider-re-using-existing-ontologies">STEP 2: CONSIDER RE-USING EXISTING ONTOLOGIES</h2>
+<p>There aren’t any.</p>
 <p>Next…</p>
 <hr>
 </section>
 <section id="step-3-enumerate-important-terms-in-the-ontology" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-enumerate-important-terms-in-the-ontology">Step 3: Enumerate Important Terms in the Ontology</h2>
-<p>Now, I will list the key terms that should be included in the ontology.</p>
-<p>Noy and McGuinness use a wine ontology example with terms like <em>grape</em>, <em>winery</em>, and <em>location</em>.</p>
+<h2 class="anchored" data-anchor-id="step-3-enumerate-important-terms-in-the-ontology">STEP 3: ENUMERATE IMPORTANT TERMS IN THE ONTOLOGY</h2>
+<p>Now, I will list the key terms that should be included in the ontology. For example, an ontology for wines would include terms like <code>grape</code>, <code>location</code>, and <code>winery</code>.</p>
 <p>For my ontology, initial terms include:</p>
 <ul>
-<li>Product line (e.g., Medicaid)<br>
+<li><code>product line</code> (e.g., Medicaid)<br>
 </li>
-<li>Value sets<br>
+<li><code>value sets</code><br>
 </li>
-<li>Codes<br>
+<li><code>codes</code><br>
 </li>
-<li>Code systems<br>
+<li><code>code systems</code><br>
 </li>
-<li>Medications</li>
+<li><code>medications</code></li>
 </ul>
-<p>This list will likely expand as development progresses.</p>
+<p>My list will probably grow as I continue…</p>
 <hr>
 </section>
 <section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<h2 class="anchored" data-anchor-id="next-steps">NEXT STEPS</h2>
 <p>In <strong>Part 2</strong>, I will begin defining classes and class hierarchies.</p>
 
 
