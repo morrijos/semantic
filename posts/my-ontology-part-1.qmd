@@ -1,5 +1,5 @@
 ---
-title: "ONTOLOGY DEVELOPMENT - PART 1"
+title: "ONTOLOGY DEVELOPMENT: PART 1"
 date: 2026-03-19
 format: html
 categories: [OWL, Protege]
@@ -7,7 +7,7 @@ categories: [OWL, Protege]
 
 ## INTRODUCTION
 
-Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, *Ontology Development 101: A Guide to Creating Your First Ontology*, by Noy and McGuinness (2001):[Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf)
+Before I begin querying an existing ontology like those on BioPortal, I’ll attempt to develop my own ontology. I’ll loosely follow the Protégé guide to ontology development, *Ontology Development 101: A Guide to Creating Your First Ontology*, by Noy and McGuinness (2001): [Ontology Development 101: A Guide to Creating Your First Ontology](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf)
 
 There are a handful of reasons why we create ontologies, but most importantly, we create ontologies to share our understanding of _domain-specific knowledge_. I’ll develop an ontology specific to my domain of career expertise: _health quality measurement_. More specifically, I’ll develop an ontology that describes components of the Healthcare Effectiveness Data and Information Set (HEDIS) published by the National Committee for Quality Assurance (NCQA). If you want to see the full set of HEDIS measures and how they’re defined, you’ll need to purchase a copy of _HEDIS Volume 2_ and its technical specifications. Instead, you can review a summary of HEDIS measures used by Johns Hopkins Health Plans as part of their Health Care Performance Measures: [HEDIS Quality Measure Toolkit](https://www.hopkinsmedicine.org/johns-hopkins-health-plans/providers-physicians/health-care-performance-measures/hedis)
 

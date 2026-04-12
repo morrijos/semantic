@@ -1,0 +1,33 @@
+---
+title: "12-APR-2026 UPDATE"
+date: 2026-04-12
+format: html
+categories: [Updates]
+---
+
+Hi all:
+
+I’m a little late, but here’s my update:
+
+**What I did last week.** I successfully loaded a BioPortal OWL ontology into Python with the RDFlib library. I spent some time reading the RDFLib documentation a getting familiar with its classes.
+
+**What I’m doing (or did) this week.** I queried the ontology with a SPARQL query (finally)—it was much, much easier than trying to do anything with Protege.
+What technical challenges are in my way. Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:
+
+SELECT ?wine 
+WHERE { 
+	?wine a wine:Wine . 
+} 
+LIMIT 10
+
+returns nothing because there aren't any explicit triples that say "All wines are wines." Instead, the following query will return something because all wines do have wine makers:
+
+SELECT ?wine ?maker
+WHERE {
+	?wine wine:hasMaker ?maker .
+}
+LIMIT 10
+
+I also had some trouble with the ontologies I tried to manipulate. I tried my first query on CSEL an the ICD-10 ontology data crashed the server. I fell back to using the small wine ontology because it's smaller and its classes are easier to understand, e.g., wines have regions like Bordeaux.
+
+**Reflections on process.** I skipped through some of the background reading on SPARQL and that lack of background became apparent in examples like that above; I'll have to revisit it all (maybe after the semester is finished).
