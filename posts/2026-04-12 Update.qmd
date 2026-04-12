@@ -5,14 +5,16 @@ format: html
 categories: [Updates]
 ---
 
-Hi all:
+Hi, all:
 
 I’m a little late, but here’s my update:
 
 **What I did last week.** I successfully loaded a BioPortal OWL ontology into Python with the RDFlib library. I spent some time reading the RDFLib documentation a getting familiar with its classes.
 
 **What I’m doing (or did) this week.** I queried the ontology with a SPARQL query (finally)—it was much, much easier than trying to do anything with Protege.
-What technical challenges are in my way. Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:
+
+
+**Technical challenges.** Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:
 
 ```python
 query = """

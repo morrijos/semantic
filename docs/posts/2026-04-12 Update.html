@@ -179,10 +179,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Hi all:</p>
+<p>Hi, all:</p>
 <p>I’m a little late, but here’s my update:</p>
 <p><strong>What I did last week.</strong> I successfully loaded a BioPortal OWL ontology into Python with the RDFlib library. I spent some time reading the RDFLib documentation a getting familiar with its classes.</p>
-<p><strong>What I’m doing (or did) this week.</strong> I queried the ontology with a SPARQL query (finally)—it was much, much easier than trying to do anything with Protege. What technical challenges are in my way. Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:</p>
+<p><strong>What I’m doing (or did) this week.</strong> I queried the ontology with a SPARQL query (finally)—it was much, much easier than trying to do anything with Protege.</p>
+<p><strong>Technical challenges.</strong> Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">"""</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="st">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span></span>
