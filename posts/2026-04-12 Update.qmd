@@ -1,5 +1,5 @@
 ---
-title: "12-APR-2026 UPDATE"
+title: "UPDATE: 12-APR-2026"
 date: 2026-04-12
 format: html
 categories: [Updates]
