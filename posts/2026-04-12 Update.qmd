@@ -14,19 +14,35 @@ I’m a little late, but here’s my update:
 **What I’m doing (or did) this week.** I queried the ontology with a SPARQL query (finally)—it was much, much easier than trying to do anything with Protege.
 What technical challenges are in my way. Apparently when an ontology is an OWL ontology—specifically—it complicates how SPARQL does its logic. OWL ontologies are filled with implicit logic that SPARQL can’t do on its own. For example:
 
+```python
+query = """
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wine: <http://w3.org>
+
 SELECT ?wine 
 WHERE { 
 	?wine a wine:Wine . 
 } 
 LIMIT 10
+"""
+```
 
 returns nothing because there aren't any explicit triples that say "All wines are wines." Instead, the following query will return something because all wines do have wine makers:
+
+```python
+query = """
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wine: <http://w3.org>
 
 SELECT ?wine ?maker
 WHERE {
 	?wine wine:hasMaker ?maker .
 }
 LIMIT 10
+"""
+```
 
 I also had some trouble with the ontologies I tried to manipulate. I tried my first query on CSEL an the ICD-10 ontology data crashed the server. I fell back to using the small wine ontology because it's smaller and its classes are easier to understand, e.g., wines have regions like Bordeaux.
 
