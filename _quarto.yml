@@ -10,6 +10,8 @@ website:
         text: HOME
       - href: about.qmd
         text: ABOUT
+      - href: rdflib.ipynb
+        text: Getting Started with RDFLib
 
   repo-url: https://github.com/morrijos/semantic
   repo-actions: [source, edit, issue]
