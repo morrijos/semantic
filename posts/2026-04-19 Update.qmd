@@ -1,0 +1,16 @@
+---
+title: "UPDATE: 19-APR-2026"
+date: 2026-04-19
+format: html
+categories: [Neo4j, Property Graphs]
+---
+
+Hi, all:
+
+**What I did last week.** I researched `Neo4j` and identified the best installation for my use-case; I decided to use their free cloud platform—`Neo4j Aura`—rather than attempt a local installation. I registered with my university email and it automatically recognized my institution—I'll look to see if the university affiliation includes any additional features.
+
+**What I'm doing (or what I did) this week.** I'm working my way through the _Get started with `Neo4J`_ documentation here: https://neo4j.com/docs/getting-started/. When I loaded the healthcare example dataset in `Neo4j Aura`, it launched another helpful tutorial that explained the dataset model and its contents. I'm going to keep getting familiar with `Neo4j`, then I'll write a quick blog post that explains the difference between property graphs (_e.g._, in `Neo4j`) and RDF graphs.
+
+**Technical Challenges.** It looks like I side-stepped many technical troubles by using the cloud `Neo4j` solution; of course, it won't be scalable if I _really_ want to use `Neo4j`, or if I want to use it at work, but it saved me some trouble for now. People love to champion free, or open-source software solutions, but it's amazing how much more approachable `Neo4j`—and `Neo4j Aura`—are compared to a free software like `Protege`. As one of my undergraduate professors once said, "Sometimes you just need to pay for things."
+
+**Thoughts on Process.** It's becoming more and more apparent that I've barely scratched the surface of these domains... I'm already thinking about how I can double down on learning more once the semester is complete. It's my last semester in the CSPB program, so I'll (hopefully) have more time to _really_ learn something in depth, rather than juggling multiple courses and a full-time job.
